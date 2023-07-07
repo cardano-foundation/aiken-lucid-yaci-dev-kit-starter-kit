@@ -2,6 +2,9 @@
 
 Demeter template demonstrating a simple "hello world" contract that locks ADA asset and unlocks it with a "secret passcode".
 
+# Aiken Presentation
+- [https://slides.com/ktorz/aiken](https://slides.com/ktorz/aiken)
+
 # Technologies
 - Aiken (on-chain)
 - Lucid (off-chain)
