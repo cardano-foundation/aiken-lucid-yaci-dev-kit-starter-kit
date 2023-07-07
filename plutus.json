@@ -1,0 +1,65 @@
+{
+  "preamble": {
+    "title": "aiken-lang/hello_world",
+    "description": "Aiken contracts for project 'aiken-lang/hello_world'",
+    "version": "0.0.0",
+    "plutusVersion": "v2",
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "hello_world.hello_world",
+      "datum": {
+        "title": "datum",
+        "schema": {
+          "$ref": "#/definitions/hello_world~1Datum"
+        }
+      },
+      "redeemer": {
+        "title": "redeemer",
+        "schema": {
+          "$ref": "#/definitions/hello_world~1Redeemer"
+        }
+      },
+      "compiledCode": "59012f010000323232323232323232322223232533300a3232533300c3370e90010008991919299980780108008a5033323001001222533301400214a026464a66602666e3c00800c5288999802802800801980b8019bae3015002375866014601866014601800e9000240206eb8cc028c03001520003371e6eb8cc024c02c01520004890d48656c6c6f2c20576f726c642100300a00214a060140026600c601000690010a4c2c6400a64a66601466e1d200000113232533300f3011002149858dd7180780098040028b18040021900199299980499b87480000044c8c94ccc038c04000852616375c601c002600e0062c600e0046600200290001111199980399b8700100300b233330050053370000890011806800801001118029baa001230033754002ae6955ceaab9e5573eae855d11",
+      "hash": "a790f0de0d9e4df1ef044f5742cb6af2d4938fd91c68fdd7961abc6c"
+    }
+  ],
+  "definitions": {
+    "ByteArray": {
+      "dataType": "bytes"
+    },
+    "hello_world/Datum": {
+      "title": "Datum",
+      "anyOf": [
+        {
+          "title": "Datum",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "owner",
+              "$ref": "#/definitions/ByteArray"
+            }
+          ]
+        }
+      ]
+    },
+    "hello_world/Redeemer": {
+      "title": "Redeemer",
+      "anyOf": [
+        {
+          "title": "Redeemer",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "msg",
+              "$ref": "#/definitions/ByteArray"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
