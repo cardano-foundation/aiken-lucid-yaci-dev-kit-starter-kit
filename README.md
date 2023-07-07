@@ -8,8 +8,8 @@ Demeter template demonstrating a simple "hello world" contract that locks ADA as
 # Technologies
 - Aiken (on-chain)
 - Lucid (off-chain)
-- Yaci-Dev-Kit
+- Yaci-Dev-Kit (local Cardano dev node)
 
-# Follow Up
+# Tutorial
 To get started, follow instructions from here:
 [https://docs.google.com/document/d/1PoAqQu7NweEz8_WCQFKb44tkufjEStUpkGTj3G17eqw](https://docs.google.com/document/d/1PoAqQu7NweEz8_WCQFKb44tkufjEStUpkGTj3G17eqw)
