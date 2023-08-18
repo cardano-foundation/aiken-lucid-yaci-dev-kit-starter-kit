@@ -1,6 +1,6 @@
-# demeter-aiken-lucid-yaci-dev-kit-starter-kit
+# aiken-lucid-yaci-dev-kit-starter-kit
 
-Demeter template demonstrating a simple "hello world" contract that locks ADA asset and unlocks it with a "secret passcode".
+A template demonstrating a simple "hello world" contract that locks ADA asset and unlocks it with a "secret passcode".
 
 # Aiken Presentation
 - [https://slides.com/ktorz/aiken](https://slides.com/ktorz/aiken)
